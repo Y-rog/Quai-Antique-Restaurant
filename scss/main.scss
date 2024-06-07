@@ -18,6 +18,7 @@ footer {
 
 .hero-scene {
     position: relative;
+    margin-bottom: 15px;
 
     &::before {
         content: "";
@@ -73,4 +74,8 @@ footer {
         transform: translate(-50%, -50%);
         opacity: 0;
     }
+}
+
+.form-label {
+    color: $primary;
 }
