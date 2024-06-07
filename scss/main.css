@@ -13397,4 +13397,27 @@ footer {
 
 .text-justify {
   text-align: justify;
+}
+
+.image-card {
+  position: relative;
+}
+.image-card:hover .titre-image {
+  opacity: 1;
+}
+.image-card:hover img {
+  -webkit-filter: brightness(0.3);
+          filter: brightness(0.3);
+}
+.image-card img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.image-card .titre-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */
