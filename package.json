@@ -1,0 +1,15 @@
+{
+  "name": "quai-antique-restaurant",
+  "version": "1.0.0",
+  "description": "Ce site est un site virtine pour le restaurant Quai Antique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
