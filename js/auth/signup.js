@@ -105,7 +105,7 @@ function InscrireUtilisateur() {
         "guestNumber": 1
     });
 
-    const requestOptions = {
+    let requestOptions = {
     method: "POST",
     headers: myHeaders,
     body: raw,
@@ -117,7 +117,9 @@ function InscrireUtilisateur() {
         if (response.ok) {
             return response.json();
         }
-        else alert("Erreur lors de l'inscription");
+        else { 
+            alert("Erreur lors de l'inscription");
+        }
     })
     .then(result => {
         alert("Inscription réussie");
